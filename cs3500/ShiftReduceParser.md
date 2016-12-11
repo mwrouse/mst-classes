@@ -2,26 +2,22 @@
 Shift Reduce Parsers are LR(1), **bottom-up** parsers that handle one symbol at a time.
 
 #### Terminology 
-*Shifting* is moving onto the next input symbol 
-
-*Reducing* is converting a symbol to a non-terminal
-
-*Bottom-Up* is starting at non-terminals that turn to terminals and working way up to start symbol 
-
+*Shifting* is moving onto the next input symbol   
+*Reducing* is converting a symbol to a non-terminal  
+*Bottom-Up* is starting at non-terminals that turn to terminals and working way up to start symbol   
 *LR Parser* means Left to Right and right most 
 
 
 #### Example
-**Grammar:**
-E -> EAT | T 
+**Grammar:**  
+`E -> EAT | T`   
+`T -> TBint | int`    
+`A -> "+" | "-"`    
+`B -> "*" | "/"`  
 
-T -> TB *int* | *int*        (no space between B and *int*)
-
-A -> "+" | "-"
-
-B -> "*" | "/"
 
 **Input:** 3 + 5 / 8
+
 
 **Steps:**         
 
@@ -55,9 +51,10 @@ The Shift-Reduce Conflict occurs when an LR parser encounters ambiguity, when it
 
 
 **Example:** 
-S -> ab | Ab                 **input:** ab 
+`S -> ab | Ab`  
+`A -> a`  
 
-A -> a
+**input:** ab   
 
 Does the parser shift, or reduce first?
 
@@ -65,23 +62,23 @@ Does the parser shift, or reduce first?
 ### Shift-Reduce Parser Tables
 Shift-Reduce parsers generate tables that implement a *push-down automata*
 
-The **Goto Table** is used to determine the next state after a reduction
 
+The **Goto Table** is used to determine the next state after a reduction  
 The **Action Table** is used to determine what to do based on an input 
 
+&nbsp;
+
 #### Example 
-S -> CC                **input:** abb 
+`S -> CC`                 
+`C -> aC`   
+`C -> b`  
 
-C -> aC 
+**input:** abb 
 
-C -> b
-
-The parser first gives a number to each production rule: 
-(1) S -> CC 
-
-(2) C -> aC 
-
-(3) C -> b
+The parser first gives a number to each production rule:    
+(1) S -> CC   
+(2) C -> aC    
+(3) C -> b   
 
 **Goto Table**
 *Columns in a Goto Table represent the non-terminals*
@@ -113,10 +110,7 @@ The parser first gives a number to each production rule:
 |8|R2|R2||
 |9|||R2|
 
-*acc* - accept state 
-
-*Sn* - Shift and goto state n
-
-*Rn* - Reduce by rule n
-
-*When reducing: pop from the stack the # of symbols of the body of the rule used to reduce*
+*acc* - accept state   
+*Sn* - Shift and goto state n   
+*Rn* - Reduce by rule n     
+*When reducing: pop from the stack the # of symbols of the body of the rule used to reduce*  

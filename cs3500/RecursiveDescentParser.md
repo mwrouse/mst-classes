@@ -1,24 +1,19 @@
 # Recursive Descent Parser 
 A Recursive Descent Parser (RDP) is a LL(k), **top-down** parser 
 
-LL(k) parsers work on *LL grammars*
-
-*RD Parsers can handle ambiguity*
-
-*LL grammars are more restrictive than LR grammars* 
-
+LL(k) parsers work on *LL grammars*   
+*RD Parsers can handle ambiguity*   
+*LL grammars are more restrictive than LR grammars*    
 *RD Parsers fail on left recursion*
 
 #### Terminology 
-*LL* means left to right and left most derivation 
+*LL* means left to right and left most derivation    
+*Top-Down* parsers begin with start symbol and work way to terminal     
 
-*Top-Down* parsers begin with start symbol and work way to terminal 
+xyzN...    **What to rewrite N as?**    
 
-xyzN...    **What to rewrite N as?**
-
-*xyz* have already been converted from terminals to non-terminals 
-
-*...* represents the rest of the unread input
+*xyz* have already been converted from terminals to non-terminals   
+*...* represents the rest of the unread input   
 
 ### Writing RDP Code 
 * One function per non-terminal 
@@ -28,13 +23,10 @@ xyzN...    **What to rewrite N as?**
 **Code for RDP parsers can be automagically generated**
 
 #### Example 
-Write code for the following grammar: 
-
-S -> dAc | b 
-
-A -> bAB | λ
-
-B -> aS
+Write code for the following grammar:   
+`S -> dAc | b`   
+`A -> bAB | λ`   
+`B -> aS`   
 
 ```cpp
 // Checks if input matches S 
