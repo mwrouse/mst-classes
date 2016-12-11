@@ -7,7 +7,7 @@ A program that performs lexical analysis is a *Lexer.*
 A *Lexeme* is a syntactical unit in a language   
 A *Token* represents a lexeme and indicates a "category" for the purpose of parsing. 
 
-**Example:** `int a = 9 * 9;`
+**Example:** `int a = 9 * 9;`   
 | Lexeme    | Token |
 |-----------|-------|
 | int       | TYPE  |
