@@ -35,7 +35,7 @@ Rules for attributes can be:
 `E.type = int` if `C1.type = int` and `C2.type = int` else `E.type = float`    
 `A.type = int`   
 `B.type = float`     
-`C.type` comes from if it is A or B  
+`C.type` comes from if it is A, B, or E  
 
 **input:** 3.14 + 23 - 5     
 
@@ -104,9 +104,9 @@ concludes:
 ## Denotational Semantics 
 *Denotational Semantics* is the most widely used version of semantic specification. 
 
-Two things are needed: 
-1. A collection of mathematical objects 
-2. A function (`M`) for every rule (mathematical object) 
+Two things are needed:    
+1. A collection of mathematical objects     
+2. A function (`M`) for every rule      
 
 #### Example 
 `D -> 零 | 一 | 二 | 三 | 四 | 五 | 六 | 七 | 八 | 九`  (0-9 in Japanese)   
