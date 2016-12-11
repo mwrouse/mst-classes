@@ -1,4 +1,4 @@
-﻿# Recognition and Automata
+# Recognition and Automata
 Automata is a mathematical machine designed to **recognize languages**
 
  * Σ is the alphabet 
