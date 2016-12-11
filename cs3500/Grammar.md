@@ -3,6 +3,8 @@ Grammar is another solution to the **specification problem**
 
 **Grammar** is a set of rules for transforming strings 
 
+&nbsp; 
+
 Given alphabet S (terminal symbols), non-terminal symbols (N), production rules (P), and a start symbol S (S ? N): 
 
 ```A -> x``` where A ? N and x is a string of terminals and non terminals 
@@ -14,6 +16,7 @@ This is *context-free grammar.*
 **Example:** S = {a, b} N = {S, P, Q}
 
 Production Rules: 
+
 S -> aPQ 
 
 P -> PQa 
@@ -28,11 +31,12 @@ A *derivation* is a **repeated rule application**
 A *language* is **any string of terminals that can be derived from a sentence**.
 
 **Example:** S = {x, y, +, -} 
-S -> SAS                                            x + y - x    =>   SAS 
 
-S -> x                                                                 =>  SASAS 
+S -> SAS                                         
 
-S -> y                                                                 => x + y - x
+S -> x                                                               
+
+S -> y
 
 A -> +
 
@@ -68,12 +72,16 @@ BNF grammar was developed for *Algol-60* in the *1960s* to solve the **specifica
 **Example:** previous grammar in BNF
 
 ```<S> ::= <S><A><S> | "x" | "y"
+
 <A> ::= "+" | "-"```
 
 ### Extended Backus-Naur Form (EBNF) 
 Adds the following: 
+
 ```[option]``` Matches 0 or 1 occurrences 
+
 ```{repetition}``` Matches 0+ occurrences 
+
 ```.``` Terminator 
 
 **EBNF does not require < and > around non-terminals**
