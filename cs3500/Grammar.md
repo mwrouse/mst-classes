@@ -5,14 +5,14 @@ Grammar is another solution to the **specification problem**
 
 &nbsp; 
 
-Given alphabet S (terminal symbols), non-terminal symbols (N), production rules (P), and a start symbol S (S ∈ N):   
+Given alphabet Σ (terminal symbols), non-terminal symbols (N), production rules (P), and a start symbol S (S ∈ N):   
 `A -> x` where A ∈ N and x is a string of terminals and non terminals  
 
 This is *context-free grammar.* 
 
 (A is called the *head*, x is the *body*)
 
-**Example:** `S = {a, b}` `N = {S, P, Q}`  
+**Example:** `Σ = {a, b}` `N = {S, P, Q}`  
 Production Rules:  
 `S -> aPQ`  
 `P -> PQa`  
