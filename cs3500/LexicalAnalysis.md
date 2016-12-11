@@ -5,6 +5,7 @@ A program that performs lexical analysis is a *Lexer.*
 
 ## Definitions 
 A *Lexeme* is a syntactical unit in a language
+
 A *Token* represents a lexeme and indicates a "category" for the purpose of parsing. 
 
 **Example:** ```int a = 9 * 9;```
@@ -56,6 +57,7 @@ Flex prefers regular expressions that match *longer strings* over shorter string
 
 **Example:** ```123abc``` would match as a string rather than int 
   ```123``` matches an int regex
+
   ```123abc``` matches a string regex
 
 If two regular expressions match the same string the one declared first in the Flex spec file will get the match. 
@@ -63,6 +65,7 @@ If two regular expressions match the same string the one declared first in the F
 #### Compiling Flex 
 Use the following command to compile Flex: 
 ```flex filename.l```
+
 Flex will automatically generate a ```lex.yy.c``` file, use g++ to compile the C code: 
 ```g++ lex.yy.c -lfl -o outputfilename```
 

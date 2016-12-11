@@ -15,8 +15,11 @@ This is *context-free grammar.*
 
 Production Rules: 
 S -> aPQ 
+
 P -> PQa 
+
 Q -> bb 
+
 P -> ab 
 
 ---
@@ -26,9 +29,13 @@ A *language* is **any string of terminals that can be derived from a sentence**.
 
 **Example:** S = {x, y, +, -} 
 S -> SAS                                            x + y - x    =>   SAS 
+
 S -> x                                                                 =>  SASAS 
+
 S -> y                                                                 => x + y - x
+
 A -> +
+
 A -> - 
 
 ---
@@ -52,12 +59,16 @@ BNF grammar was developed for *Algol-60* in the *1960s* to solve the **specifica
 
 **Syntax:**
 ```::= ``` Production Rule 
+
 ```<X>```  X is a non-terminal 
+
 ```"x"```  x is a terminal symbol 
 
+
 **Example:** previous grammar in BNF
-<S> ::= <S><A><S> | "x" | "y"
-<A> ::= "+" | "-"
+
+```<S> ::= <S><A><S> | "x" | "y"
+<A> ::= "+" | "-"```
 
 ### Extended Backus-Naur Form (EBNF) 
 Adds the following: 

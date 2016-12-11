@@ -3,16 +3,22 @@ Shift Reduce Parsers are LR(1), **bottom-up** parsers that handle one symbol at 
 
 #### Terminology 
 *Shifting* is moving onto the next input symbol 
+
 *Reducing* is converting a symbol to a non-terminal
+
 *Bottom-Up* is starting at non-terminals that turn to terminals and working way up to start symbol 
+
 *LR Parser* means Left to Right and right most 
 
 
 #### Example
 **Grammar:**
 E -> EAT | T 
+
 T -> TB *int* | *int*        (no space between B and *int*)
+
 A -> "+" | "-"
+
 B -> "*" | "/"
 
 **Input:** 3 + 5 / 8
@@ -50,6 +56,7 @@ The Shift-Reduce Conflict occurs when an LR parser encounters ambiguity, when it
 
 **Example:** 
 S -> ab | Ab                 **input:** ab 
+
 A -> a
 
 Does the parser shift, or reduce first?
@@ -64,12 +71,16 @@ The **Action Table** is used to determine what to do based on an input
 
 #### Example 
 S -> CC                **input:** abb 
+
 C -> aC 
+
 C -> b
 
 The parser first gives a number to each production rule: 
 (1) S -> CC 
+
 (2) C -> aC 
+
 (3) C -> b
 
 **Goto Table**
@@ -103,7 +114,9 @@ The parser first gives a number to each production rule:
 |9|||R2|
 
 *acc* - accept state 
+
 *Sn* - Shift and goto state n
+
 *Rn* - Reduce by rule n
 
 *When reducing: pop from the stack the # of symbols of the body of the rule used to reduce*
