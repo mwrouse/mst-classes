@@ -1,6 +1,9 @@
 # Shift Reduce Parser
 Shift Reduce Parsers are LR(1), **bottom-up** parsers that handle one symbol at a time.
 
+*LR parsers are only suitable for LR grammars*   
+*LR Parsers do not like ambiguity**
+
 #### Terminology 
 *Shifting* is moving onto the next input symbol   
 *Reducing* is converting a symbol to a non-terminal  
@@ -9,7 +12,6 @@ Shift Reduce Parsers are LR(1), **bottom-up** parsers that handle one symbol at 
 
 
 #### Example
-**Grammar:**  
 `E -> EAT | T`   
 `T -> TBint | int`    
 `A -> "+" | "-"`    
@@ -39,22 +41,15 @@ Shift Reduce Parsers are LR(1), **bottom-up** parsers that handle one symbol at 
         |    .  |  |  .
         3    +  5  /  8 
 
-### LR Parsers 
-LR Parsers parse from left to right and use right-most derivation. 
 
-* Only suitable on LR Grammars 
-* Do not like ambiguity 
-
-
-###Shift-Reduce Conflict 
+### Shift-Reduce Conflict 
 The Shift-Reduce Conflict occurs when an LR parser encounters ambiguity, when it cannot decide whether to shift, or to reduce. 
-
 
 **Example:**   
 `S -> ab | Ab`  
 `A -> a`  
 
-**input:** ab   
+**Input:** ab   
 
 Does the parser shift, or reduce first?
 
