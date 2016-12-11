@@ -117,8 +117,12 @@ So far, the string `七一五` is valid, but it **has no meaning**.
 **Mathematical object:** Z (set of all integers)   
 
 **Functions:**   
-`MD(零) = 0` , `MD(一) = 1`, `MD(二) = 2` ... `MD(九) = 9`      
-`MN(ND) = MN(N) * 10 + MD(D)`, `MN(λ) = 0`
+`MD(零) = 0`    
+`MD(一) = 1`    
+`MD(二) = 2`    
+...    
+`MD(九) = 9`      
+`MN(ND) = MN(N) * 10 + MD(D)`, `MN(λ) = 0`   
 
 **Find the meaning of:** `七一五`    
                  
@@ -140,8 +144,8 @@ So far, the string `七一五` is valid, but it **has no meaning**.
 
 The string `七一五` now has a meaning of `715`
  
- ### Denotational Semantics State 
- Adding a state to denotational semantics allows for *more complex meanings* 
+### Denotational Semantics State 
+Adding a state to denotational semantics allows for *more complex meanings* 
 
 A *state* in denotational semantics is a set of `<variable, value>` pairs:   
 ` S = { <x1, v1>, <x2, v2>, ..., <xn, vn> }`   
@@ -158,10 +162,13 @@ We can then do:
 `N -> ND | λ`  
 
 **Functions:**   
-`MT(N, S) = MN(N)`, `MN(var, S) = VAL(S, var)`    
+`MT(N, S) = MN(N)`    
+`MN(var, S) = VAL(S, var)`    
 `MB(T1PT2, S) = MT(T1, S) MP(P) MT(T2,S)`   
-`MP(💩) = /`, `MP(👽) = -`    
-`ME(T, S) = MT(T, S)`, `ME(B, S) = MB(B, S)`    
+`MP(💩) = /`    
+`MP(👽) = -`    
+`ME(T, S) = MT(T, S)`   
+`ME(B, S) = MB(B, S)`    
 where `S` is a state 
 
 **Find meaning of:** `一四👽y` in the state `{<x, 0>, <y, 3>}`    
