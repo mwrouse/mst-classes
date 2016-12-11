@@ -11,11 +11,11 @@ The following problems exist:
 
  
 ## Notes 
-[Regular Expressions](RegularExpressions.md)   
-[Recognition And Automata](RecognitionAndAutomata.md)   
-[Grammar](Grammar.md)   
-[Lexical Analysis](LexicalAnalysis.md)   
-[Shift Reduce Parsers](ShiftReduceParser.md)   
-[Recursive Descent Parsers](RecursiveDescentParser.md)    
-[Flex (Lexical Analyzer Generator)](Flex.md)    
-[GNU Bison](GNUBison.md)    
+[Regular Expressions](notes/RegularExpressions.md)   
+[Recognition And Automata](notes/RecognitionAndAutomata.md)   
+[Grammar](notes/Grammar.md)   
+[Lexical Analysis](notes/LexicalAnalysis.md)   
+[Shift Reduce Parsers](notes/ShiftReduceParser.md)   
+[Recursive Descent Parsers](notes/RecursiveDescentParser.md)    
+[Flex (Lexical Analyzer Generator)](notes/Flex.md)    
+[GNU Bison](notes/GNUBison.md)    
