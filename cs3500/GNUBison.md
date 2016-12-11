@@ -20,7 +20,7 @@ GNU Bison is a parser generator similar to Flex.
 | ```yyerror(const char*)``` |n/a|Called when parsing error occurs|
 | ```yylex()``` | ```int``` | Stores tokens in global variable ```yytext```, returns int representing token type |
 
-**Bison will not autogenerate yyerror(const char*) function**
+**Bison will not autogenerate yyerror(const char*) function**   
 *Parameter of yyerror is the error message*
 
 ### Bison Special Variables 
@@ -38,7 +38,8 @@ In order to use bison you must:
 5. Define yylex() and yyerror()
 
 ### Declaring Tokens 
-```%token TOKEN_TYPE``` declares a token type in Bison 
+```%token TOKEN_TYPE``` declares a token type in Bison   
+
 **Example:** 
 ```
 %token INTEGER_LITERAL
@@ -47,6 +48,9 @@ In order to use bison you must:
 ```
 declares three token types, INTEGER_LITERAL, DECIMAL_LITERAL, and HEX_LITERAL
 
+Bison will automatically assign tokens an integer value 
+
+
 ### Bison Hacks 
 ``` 
 %left TOKEN 
@@ -54,18 +58,18 @@ declares three token types, INTEGER_LITERAL, DECIMAL_LITERAL, and HEX_LITERAL
 Tells Bison to prefer left-derivation for a TOKEN 
 
 ### Semantic Value 
-To set semantic value to a token use 
+To set semantic value to a token use    
 ```$$ = value;``` in an action 
 
-To get the semantic value of the last matched token(s), use: 
+To get the semantic value of the last matched token(s), use:    
 ```$1 ... $n``` in an action  
  
 ### Compiling Bison 
-To compile Bison use the following command: 
+To compile Bison use the following command:    
 ```bison -d filename.y```
 
 ## Using Bison with Flex 
-Flex and Bison can work together to form a parser: 
+Flex and Bison can work together to form a parser.   
 Flex defines yylex() function for Bison, and each action in Flex will return the type of token matched. 
 
 ### Bison/Flex Make File 

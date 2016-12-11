@@ -39,18 +39,18 @@ Shift Reduce Parsers are LR(1), **bottom-up** parsers that handle one symbol at 
         |    .  |  |  .
         3    +  5  /  8 
 
-## LR Parsers 
+### LR Parsers 
 LR Parsers parse from left to right and use right-most derivation. 
 
 * Only suitable on LR Grammars 
 * Do not like ambiguity 
 
 
-### Shift-Reduce Conflict 
+###Shift-Reduce Conflict 
 The Shift-Reduce Conflict occurs when an LR parser encounters ambiguity, when it cannot decide whether to shift, or to reduce. 
 
 
-**Example:** 
+**Example:**   
 `S -> ab | Ab`  
 `A -> a`  
 
@@ -59,14 +59,13 @@ The Shift-Reduce Conflict occurs when an LR parser encounters ambiguity, when it
 Does the parser shift, or reduce first?
 
 
-### Shift-Reduce Parser Tables
+## Shift-Reduce Parser Tables
 Shift-Reduce parsers generate tables that implement a *push-down automata*
 
 
 The **Goto Table** is used to determine the next state after a reduction  
 The **Action Table** is used to determine what to do based on an input 
 
-&nbsp;
 
 #### Example 
 `S -> CC`                 
@@ -81,7 +80,8 @@ The parser first gives a number to each production rule:
 (3) C -> b   
 
 **Goto Table**
-*Columns in a Goto Table represent the non-terminals*
+*Columns in a Goto Table represent the non-terminals*    
+
 |State |  S  |  C  |   
 |:------:|:-----:|:-----:|
 | 0 | 1 | 2 | 
@@ -96,7 +96,8 @@ The parser first gives a number to each production rule:
 |9|||
 
 **Action Table**
-*Columns in an Action Table represent the terminals ($ is end of input)*
+*Columns in an Action Table represent the terminals ($ is end of input)*    
+
 |State| a | b|$|
 |------|---|---|---|
 |0|S3|S4||

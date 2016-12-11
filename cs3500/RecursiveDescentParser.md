@@ -11,11 +11,10 @@ LL(k) parsers work on *LL grammars*
 *Top-Down* parsers begin with start symbol and work way to terminal     
 
 xyzN...    **What to rewrite N as?**    
-
 *xyz* have already been converted from terminals to non-terminals   
 *...* represents the rest of the unread input   
 
-### Writing RDP Code 
+## Writing RDP Code 
 * One function per non-terminal 
 * Global variable to store next token in input
 * Function to read next token into global variable
