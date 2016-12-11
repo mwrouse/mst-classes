@@ -12,9 +12,15 @@ The following problems exist:
  
 ## Notes 
 [Regular Expressions](RegularExpressions.md)
+
 [Recognition And Automata](RecognitionAndAutomata.md)
+
 [Grammar](Grammar.md)
+
 [Lexical Analysis](LexicalAnalysis.md)
+
 [Shift Reduce Parsers](ShiftReduceParser.md)
+
 [GNU Bison](GNUBison.md)
+
 [Recursive Descent Parsers](RecursiveDescentParser.md)
