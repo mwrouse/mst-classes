@@ -2,7 +2,7 @@
 	Program......: Assignment 3
 	File.........: roboparser.cpp
 	Student......: Michael Rouse
-	Student ID...: 12442296
+	Student ID...: 
 	Class........: Comp Sci 3500
 	Instructor...: Morales
 	Date.........: 2016-11-11

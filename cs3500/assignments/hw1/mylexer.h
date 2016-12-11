@@ -2,7 +2,7 @@
 	Program......: Assignment 1
 	File.........: assignment1.h
 	Student......: Michael Rouse
-	Student ID...: 12442296
+	Student ID...: 
 	Class........: Comp Sci 3500
 	Instructor...: Morales
 	Date.........: 2016-09-22
