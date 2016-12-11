@@ -1,0 +1,33 @@
+prog square
+blip
+  x is 90 !
+  y is 100 !
+  c is 1 !
+  while ( c < 4 )
+    forward ( y ) !
+    rotate ( x ) !
+    c is c + 1 !
+  endw
+blorp
+
+
+prog circle
+blip
+
+blorp
+
+
+
+prog hexagon
+blip
+  x is 44 !
+  y is 99 !
+
+  if ( x > y )
+    forward ( x ) !
+    meow is 42 !
+  else
+    x is y + 1 !
+  endif
+
+blorp

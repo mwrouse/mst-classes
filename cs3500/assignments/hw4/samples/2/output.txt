@@ -1,0 +1,98 @@
+TOKEN: K_PROG        LEXEME: prog
+TOKEN: T_IDENT       LEXEME: square
+TOKEN: K_BLIP        LEXEME: blip
+TOKEN: T_IDENT       LEXEME: x
+TOKEN: K_IS          LEXEME: is
+TOKEN: T_INTEGER     LEXEME: 90
+RULE: Factor ::= integer
+TOKEN: K_BANG        LEXEME: !
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+RULE: Expression ::= SimpleExpression
+RULE: Assignment ::= identifier is Expression !
+RULE: Statement ::= Assignment
+TOKEN: T_IDENT       LEXEME: y
+TOKEN: K_IS          LEXEME: is
+TOKEN: T_INTEGER     LEXEME: 100
+RULE: Factor ::= integer
+TOKEN: K_BANG        LEXEME: !
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+RULE: Expression ::= SimpleExpression
+RULE: Assignment ::= identifier is Expression !
+RULE: Statement ::= Assignment
+TOKEN: T_IDENT       LEXEME: c
+TOKEN: K_IS          LEXEME: is
+TOKEN: T_INTEGER     LEXEME: 1
+RULE: Factor ::= integer
+TOKEN: K_BANG        LEXEME: !
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+RULE: Expression ::= SimpleExpression
+RULE: Assignment ::= identifier is Expression !
+RULE: Statement ::= Assignment
+TOKEN: K_WHILE       LEXEME: while
+TOKEN: K_LPAREN      LEXEME: (
+TOKEN: T_IDENT       LEXEME: c
+RULE: Factor ::= identifier
+TOKEN: T_RELATION    LEXEME: <
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+TOKEN: T_INTEGER     LEXEME: 4
+RULE: Factor ::= integer
+TOKEN: K_RPAREN      LEXEME: )
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+RULE: Expression ::= SimpleExpression Relation SimpleExpression
+TOKEN: K_FORWARD     LEXEME: forward
+TOKEN: K_LPAREN      LEXEME: (
+TOKEN: T_IDENT       LEXEME: y
+RULE: Factor ::= identifier
+TOKEN: K_RPAREN      LEXEME: )
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+RULE: Expression ::= SimpleExpression
+TOKEN: K_BANG        LEXEME: !
+RULE: FwdStatement ::= forward ( Expression ) !
+RULE: Statement ::= FwdStatement
+TOKEN: K_ROTATE      LEXEME: rotate
+TOKEN: K_LPAREN      LEXEME: (
+TOKEN: T_IDENT       LEXEME: x
+RULE: Factor ::= identifier
+TOKEN: K_RPAREN      LEXEME: )
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+RULE: Expression ::= SimpleExpression
+TOKEN: K_BANG        LEXEME: !
+RULE: RotStatement ::= rotate ( Expression ) !
+RULE: Statement ::= RotStatement
+TOKEN: T_IDENT       LEXEME: c
+TOKEN: K_IS          LEXEME: is
+TOKEN: T_IDENT       LEXEME: c
+RULE: Factor ::= identifier
+TOKEN: T_ADDOPERATOR LEXEME: +
+RULE: Term ::= Factor
+TOKEN: T_INTEGER     LEXEME: 1
+RULE: Factor ::= integer
+TOKEN: K_BANG        LEXEME: !
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+RULE: SimpleExpression ::= Term AddOperator SimpleExpression
+RULE: Expression ::= SimpleExpression
+RULE: Assignment ::= identifier is Expression !
+RULE: Statement ::= Assignment
+TOKEN: K_ENDW        LEXEME: endw
+RULE: StatementSequence ::= Statement
+RULE: StatementSequence ::= Statement StatementSequence
+RULE: StatementSequence ::= Statement StatementSequence
+RULE: LoopStatement ::= while ( Expression ) StatementSequence endw
+RULE: Statement ::= LoopStatement
+TOKEN: K_BLORP       LEXEME: blorp
+RULE: StatementSequence ::= Statement
+RULE: StatementSequence ::= Statement StatementSequence
+RULE: StatementSequence ::= Statement StatementSequence
+RULE: StatementSequence ::= Statement StatementSequence
+RULE: RoutineDeclaration ::= prog identifier blip StatementSequence blorp
+RULE: RoutineSequence ::= empty
+RULE: RoutineSequence ::= RoutineDeclaration RoutineSequence
+CORRECT

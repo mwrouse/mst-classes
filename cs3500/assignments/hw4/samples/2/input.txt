@@ -1,0 +1,11 @@
+prog square
+blip
+  x is 90 !
+  y is 100 !
+  c is 1 !
+  while ( c < 4 ) 
+    forward ( y ) !
+    rotate ( x ) !
+    c is c + 1 !
+  endw
+blorp

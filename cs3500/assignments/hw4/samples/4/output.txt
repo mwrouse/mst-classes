@@ -1,0 +1,4 @@
+TOKEN: T_IDENT       LEXEME: void
+RULE: RoutineSequence ::= empty
+ERROR: In line 1 with token 'void'
+INVALID!

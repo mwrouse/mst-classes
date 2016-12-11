@@ -1,0 +1,40 @@
+TOKEN: K_PROG        LEXEME: prog
+TOKEN: T_IDENT       LEXEME: main
+TOKEN: K_BLIP        LEXEME: blip
+TOKEN: T_IDENT       LEXEME: x
+TOKEN: K_IS          LEXEME: is
+TOKEN: T_INTEGER     LEXEME: 2
+RULE: Factor ::= integer
+TOKEN: T_ADDOPERATOR LEXEME: +
+RULE: Term ::= Factor
+TOKEN: T_INTEGER     LEXEME: 2
+RULE: Factor ::= integer
+TOKEN: K_BANG        LEXEME: !
+RULE: Term ::= Factor
+RULE: SimpleExpression ::= Term
+RULE: SimpleExpression ::= Term AddOperator SimpleExpression
+RULE: Expression ::= SimpleExpression
+RULE: Assignment ::= identifier is Expression !
+RULE: Statement ::= Assignment
+TOKEN: K_FORWARD     LEXEME: forward
+TOKEN: K_LPAREN      LEXEME: (
+TOKEN: T_IDENT       LEXEME: x
+RULE: Factor ::= identifier
+TOKEN: T_MULOPERATOR LEXEME: *
+TOKEN: T_INTEGER     LEXEME: 100
+RULE: Factor ::= integer
+TOKEN: K_RPAREN      LEXEME: )
+RULE: Term ::= Factor
+RULE: Term ::= Factor MulOperator Term
+RULE: SimpleExpression ::= Term
+RULE: Expression ::= SimpleExpression
+TOKEN: K_BANG        LEXEME: !
+RULE: FwdStatement ::= forward ( Expression ) !
+RULE: Statement ::= FwdStatement
+TOKEN: K_BLORP       LEXEME: blorp
+RULE: StatementSequence ::= Statement
+RULE: StatementSequence ::= Statement StatementSequence
+RULE: RoutineDeclaration ::= prog identifier blip StatementSequence blorp
+RULE: RoutineSequence ::= empty
+RULE: RoutineSequence ::= RoutineDeclaration RoutineSequence
+CORRECT
