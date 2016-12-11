@@ -1,1 +1,60 @@
-<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">@import url('https://themes.googleusercontent.com/fonts/css?kit=CHlFMJta0epj-qrFR4T-M8D13m4yzSLrWMvLHqiVXKraYNH6AudjVwkywT0tHhoYQGgSI1L_RygW_CFXa7b4YYkhIBF4xkxH1pzIXgWXlgM');.lst-kix_wuxq0xqunct4-7>li:before{content:"\0025cb  "}.lst-kix_wuxq0xqunct4-6>li:before{content:"\0025cf  "}.lst-kix_wuxq0xqunct4-4>li:before{content:"\0025cb  "}.lst-kix_wuxq0xqunct4-5>li:before{content:"\0025a0  "}ul.lst-kix_wuxq0xqunct4-1{list-style-type:none}.lst-kix_wuxq0xqunct4-2>li:before{content:"\0025a0  "}ul.lst-kix_wuxq0xqunct4-2{list-style-type:none}ul.lst-kix_wuxq0xqunct4-3{list-style-type:none}ul.lst-kix_wuxq0xqunct4-4{list-style-type:none}ul.lst-kix_wuxq0xqunct4-5{list-style-type:none}ul.lst-kix_wuxq0xqunct4-6{list-style-type:none}.lst-kix_wuxq0xqunct4-3>li:before{content:"\0025cf  "}ul.lst-kix_wuxq0xqunct4-7{list-style-type:none}ul.lst-kix_wuxq0xqunct4-8{list-style-type:none}.lst-kix_wuxq0xqunct4-0>li:before{content:"\0025cf  "}.lst-kix_wuxq0xqunct4-8>li:before{content:"\0025a0  "}.lst-kix_wuxq0xqunct4-1>li:before{content:"\0025cb  "}ul.lst-kix_wuxq0xqunct4-0{list-style-type:none}ol{margin:0;padding:0}table td,table th{padding:0}.c7{font-size:11pt;font-family:"Arial";font-weight:700}.c10{padding-top:0pt;padding-bottom:0pt;text-align:center}.c24{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.c23{padding-top:24pt;padding-bottom:6pt}.c14{color:#0000ff;text-decoration:underline}.c1{padding:0;margin:0}.c17{font-size:16pt;font-family:"Ubuntu"}.c9{font-size:11pt;font-family:"Arial"}.c3{color:#1155cc;text-decoration:underline}.c6{color:inherit;text-decoration:inherit}.c13{color:#ff0000;text-decoration:underline}.c12{color:#073763;text-decoration:underline}.c5{margin-left:36pt;padding-left:0pt}.c21{padding-top:18pt;padding-bottom:4pt}.c16{font-size:12pt;font-family:"Droid Serif"}.c19{color:#073763}.c22{font-size:16pt}.c0{font-weight:400}.c8{text-indent:36pt}.c18{text-decoration:underline}.c2{font-family:"Courier New"}.c20{text-align:justify}.c4{height:12pt}.c15{font-family:"Arial"}.c11{font-weight:700}.title{padding-top:24pt;color:#000000;font-weight:700;font-size:36pt;padding-bottom:6pt;font-family:"Droid Sans";line-height:1.15;text-align:left}.subtitle{padding-top:18pt;color:#666666;font-size:24pt;padding-bottom:4pt;font-family:"Droid Sans";line-height:1.15;font-style:italic;text-align:left}li{color:#000000;font-size:12pt;font-family:"Droid Serif"}p{margin:0;color:#000000;font-size:12pt;font-family:"Droid Serif"}h1{padding-top:24pt;color:#000000;font-weight:700;font-size:18pt;padding-bottom:6pt;font-family:"Ubuntu";line-height:1.15;text-align:left}h2{padding-top:18pt;color:#000000;font-weight:700;font-size:14pt;padding-bottom:4pt;font-family:"Ubuntu";line-height:1.15;text-align:left}h3{padding-top:14pt;color:#000000;font-weight:700;font-size:12pt;padding-bottom:4pt;font-family:"Ubuntu";line-height:1.15;text-align:left}h4{padding-top:12pt;color:#666666;font-size:12pt;padding-bottom:2pt;font-family:"Ubuntu";line-height:1.15;font-style:italic;text-align:left}h5{padding-top:11pt;color:#666666;font-weight:700;font-size:10pt;padding-bottom:2pt;font-family:"Droid Serif";line-height:1.15;text-align:left}h6{padding-top:10pt;color:#666666;font-size:10pt;padding-bottom:2pt;font-family:"Droid Serif";line-height:1.15;font-style:italic;text-align:left}</style></head><body class="c24"><h1 class="c23" id="h.j1a9zp1uoctc"><span class="c0 c15">FINAL PROJECT</span><span class="c0">:</span></h1><p class="c21 subtitle" id="h.fbazzaukzk9z"><span class="c0">Lisp head first. </span></p><p class="c10 c4"><span class="c7"></span></p><p class="c10"><span class="c7">Due Date:</span><span class="c0 c9">&nbsp; </span><span class="c7 c12">Friday, December the 16th, 11:59:59pm</span></p><h2 class="c21" id="h.mf1xlmd02a6m"><span class="c0 c16">Write a collection of LISP function definitions. </span></h2><h2 class="c21" id="h.u74fwia9avjf"><span class="c22 c0">Submission Guidelines:</span></h2><p class=""><span class="c0">Submit via &lsquo;</span><span class="c0 c2">cssubmit 3500 a F</span><span class="c0">&rsquo;. Your file shall be called &ldquo;</span><span class="c2 c11">FinalProj.lisp</span><span class="c0">&rdquo;. </span></p><p class=""><span class="c0">Your file should include your </span><span class="c11 c18">name</span><span class="c0">. &nbsp;</span></p><h2 class="c21" id="h.ridzftyl75mj"><span class="c0 c22">Description:</span></h2><p class="c20"><span class="c0">Using </span><span class="c11 c14">only</span><span class="c0">&nbsp;the functional forms described in the LISP notes class </span><span class="c0 c3"><a class="c6" href="https://www.google.com/url?q=https://docs.google.com/document/d/1lg3z4E26fsrUrOj8dxSF2Zc1DY3v9ugwIU0mxj4LhBg/edit?usp%3Dsharing&amp;sa=D&amp;ust=1481499427376000&amp;usg=AFQjCNFBEs-2X1enUejl7Hxb_UaKYp_A0Q">document</a></span><span class="c0">, y</span><span class="c0">our submission file should include definitions for the following lisp functional forms: </span></p><p class="c4"><span class="c0"></span></p><ul class="c1 lst-kix_wuxq0xqunct4-0 start"><li class="c5"><span class="c0 c2">(myLast L)</span></li></ul><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluates to the last element of list L.</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myLast &lsquo;(p a e g))</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">g</span></p><p class="c4"><span class="c0"></span></p><ul class="c1 lst-kix_wuxq0xqunct4-0"><li class="c5"><span class="c0 c2">(myCount X L)</span></li></ul><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluates to the number of occurrences of X in list L.</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myCount &lsquo;a &lsquo;(p k a t p a e g))</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">2</span></p><p class="c4"><span class="c0"></span></p><ul class="c1 lst-kix_wuxq0xqunct4-0"><li class="c5"><span class="c0 c2">(myGen X Y)</span></li></ul><p class="c8"><span class="c0">Given integers X and Y, evaluates to the list of increasing integers between X and Y inclusive. ( or to &nbsp;nil &nbsp;if such list does not exist )</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myGen 3 11)</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">(3 4 5 6 7 8 9 10 11)</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myGen 4 4)</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">(4)</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myGen 11 3)</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">()</span></p><p class="c4"><span class="c0"></span></p><ul class="c1 lst-kix_wuxq0xqunct4-0"><li class="c5"><span class="c0 c2">(myMember X L)</span></li></ul><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluates to &lsquo;true&rsquo; if X is in list L, &lsquo;false&rsquo; otherwise.</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myMember &lsquo;a &lsquo;(p a e g))</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">t</span></p><p class="c4"><span class="c0"></span></p><ul class="c1 lst-kix_wuxq0xqunct4-0"><li class="c5"><span class="c0 c2">(myCommon L1 L2)</span></li></ul><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluates to a list of elements that are common in both lists L1 and L2.</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assume L1 and L2 have no repeated elements.</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myCommon &lsquo;(p a e g) &lsquo;(a q r e))</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">(a e)</span></p><p class="c4"><span class="c0"></span></p><ul class="c1 lst-kix_wuxq0xqunct4-0"><li class="c5"><span class="c0 c2">(myMap F L)</span></li></ul><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluates to the list which results from applying function F to every element of list L.</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myMap (lambda (x) (* 2 x)) &lsquo;(1 2 3 4) )</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">(2 4 6 8)</span></p><p class="c4"><span class="c0"></span></p><ul class="c1 lst-kix_wuxq0xqunct4-0"><li class="c5"><span class="c0 c2">(myReduce F L)</span></li></ul><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluates to the the results of applying aggregate function F to the elements of L. L will be of size &gt;= 2. F will be a commutative function.</span></p><p class=""><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eg. &nbsp;</span><span class="c0 c2">(myReduce (lambda (x y) (+ x y)) &lsquo;(1 2 3 4 5))</span><span class="c0">&nbsp; &rarr; &nbsp;</span><span class="c0 c2">15</span></p><p class="c4"><span class="c11 c17"></span></p><p class=""><span class="c0">The functions all start with &nbsp;&lsquo;</span><span class="c0 c2">my</span><span class="c0">&rsquo; &nbsp;to prevent any conflict with existing forms. </span></p><p class="c4"><span class="c0"></span></p><p class=""><span class="c0">Again, use </span><span class="c14 c11">only</span><span class="c0">&nbsp;the functional forms described in the LISP notes class </span><span class="c3 c0"><a class="c6" href="https://www.google.com/url?q=https://docs.google.com/document/d/1lg3z4E26fsrUrOj8dxSF2Zc1DY3v9ugwIU0mxj4LhBg/edit?usp%3Dsharing&amp;sa=D&amp;ust=1481499427398000&amp;usg=AFQjCNETCSvo49bGWaEb0g2jgOW_fN_V7A">document</a></span><span class="c0">.</span></p><p class=""><span class="c0">Do </span><span class="c11 c13">not use</span><span class="c0">&nbsp;other Common Lisp pre-defined forms.</span></p><h1 class="" id="h.6ksyiqnqjjb9"><span class="c0">END.</span><hr style="page-break-before:always;display:none;"></h1></body></html>
+# Lisp Head First 
+Due: December 16th, 2016 11:59:59pm 
+
+Write a collection of LISP function definitions. 
+
+
+
+## Submission Guidelines 
+Submit via `cssubmit`.   
+Your file shall be called “FinalProj.lisp”.    
+Your file should include your name.  
+
+
+## Functions
+Your submission file should include definitions for the following lisp functional forms: 
+
+### myLast 
+The function `(myLast L)` should evaluate to the last element of the list L     
+
+**Example:** `(myLast '(p a e g)) -> g` 
+
+### myCount
+The function `(mycount X L)` should evaluate to the number of occurences of X in the list L.    
+
+**Example:** `(myCount 'a '(p k a t pa e g)) -> 2`
+
+
+### myGen 
+`(myGen X Y)` when given integers X and Y evaluates to the list of increasing integers between X and Y *inclusive* (or nil if such list does not exist).
+
+**Example:** `(myGen 3 11) -> (3 4 5 6 7 8 9 10 11)`    
+**Example:** `(myGen 4 4) -> (4)`    
+**Example:** `(myGen 11 3) -> ()`   
+
+
+### myMember
+`(myMember X L)` evaluates to `True` if X is in the list L, `False` otherwise.   
+
+**Example:** `(myMember 'a '(p a e g)) -> t`    
+**Example:** `(myMember 'b '(p a e g)) -> nil`   
+
+
+
+### myCommon
+`(myCommon L1 L2)` evaluates to a list of elements that are in both L1 and L2. Assume L1 and L2 have no repeated elements. 
+
+**Example:** `(myCommon '(p a e g) '(a q r e)) -> (a e)` 
+
+
+### myMap 
+`(myMap F L)` should evaluate to the list which results from applying function F to every element in the list L. 
+
+**Example:** `(myMap (lambda (x) (* 2 x)) '(1 2 3 4) ) -> (2 4 6 8)`
+
+### myReduce 
+`(myReduce F L)` should evaluate to the result of applying aggregate function F to the elements of L. L will be size >= 2. F will be a commutative function 
+
+**Example:** `(myReduce (lambda (x y) (+ x y)) '(1 2 3 4 5)) -> 15`
+
+
