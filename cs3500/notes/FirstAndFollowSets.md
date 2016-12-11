@@ -15,6 +15,7 @@ Use the following algorithm to find FIRST(β) for any symbol β:
 `B -> gBh | i`   
 
 Gives the following first and follow sets:   
+
 |Non-Terminal| FIRST | FOLLOW | 
 |:-:|-------|-------|
 |S| a, c  | $     |

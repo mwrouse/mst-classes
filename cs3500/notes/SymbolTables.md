@@ -12,7 +12,8 @@ int a[5];
 int foo (int x, float& y);
 struct point { int x, y; }
 ```
-The following symbol table would be generated:   
+The following symbol table would be generated:    
+
 | Name  | Attribute |
 |:-----:|:----------|
 |x|int|
