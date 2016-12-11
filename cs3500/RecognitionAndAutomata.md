@@ -12,17 +12,17 @@ Given an automata and an input string, following transition functions based on i
 **Law:** For any regular expression there is an automata, and vice-versa
 
 **Example:** Create an automata for ```(+|-)?[0-9]+```
-![Automata for example](https://github.com/mwrouse/mst-classes/cs3500/images/automata1.png)
+![Automata for example](images/automata1.png)
 
 **Example:** Create an automata for ```L(L|D)*(-(L|D)+)*``` where ```L = [A-Za-z]``` and ```D = [0-9]```
-![Automata for example](https://github.com/mwrouse/mst-classes/cs3500/images/automata2.png)
+![Automata for example](images/automata2.png)
 
 
 ## Encoding an Automata 
 Use a variable to remember what state you are in, use a switch-case to perform operations for each state. 
 
 **Example:** Σ = {a, b} 
-![Automata for example](https://github.com/mwrouse/mst-classes/cs3500/images/automata3.png)
+![Automata for example](images/automata3.png)
 ```cpp
 // Assumes that S is only composed of 'a's and 'b's
 bool recognition(string s) { 
