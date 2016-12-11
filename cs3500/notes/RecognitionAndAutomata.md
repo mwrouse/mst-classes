@@ -3,7 +3,7 @@ Automata is a mathematical machine designed to **recognize languages**
 
  * Σ is the alphabet 
  * Q is set of states
-    * Q0 ? Q is the initial state 
+    * Q0 ⊄ Q is the initial state 
     * F ∈ Q are accept states
     * δ are transition functions 
 
