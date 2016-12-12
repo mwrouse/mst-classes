@@ -25,3 +25,11 @@ The following problems exist:
 [First and Follow Sets](notes/FirstAndFollowSets.md)     
 [Symbol Tables](notes/SymbolTables.md)    
 [Specification of Semantics](notes/SpecificationOfSemantics.md)   
+
+
+## Assignments 
+[Homework 1](assignments/hw1)     
+[Homework 2](assignments/hw2)       
+[Homework 3](assignments/hw3)       
+[Homework 4](assignments/hw4)       
+[Final Project](assignments/final)    
