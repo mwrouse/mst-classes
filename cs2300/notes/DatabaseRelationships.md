@@ -25,6 +25,8 @@ Drinkers also can *Prefer* Beers
 ## Relationship Cardinality 
 The *Cardinality* of a relationship is the number of occurrences in one entity that can be associated with a number of occurrences in another.  
 
+Cardinality is specified by a number, or "m"/"n" next to the line on a relationship. 
+
 ## One to One 
 A *One to One* cardinality means that an entry in one table can only be associated with *one* entry in another table.  
 
@@ -66,7 +68,7 @@ Attributes on a *many to one* relationship **must be placed on the many side ent
 
 Students **must** *Take* a Course, but Courses do not have to be taken by Students. 
 
-*Total Participation is symbolized as a double line on a diagram. *
+*Total Participation is symbolized as a double line on a diagram.*
 
 
 ### Partial Participation 

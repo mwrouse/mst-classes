@@ -9,4 +9,4 @@ Katrina Ward
 [Data Models](notes/DataModels.md)     
 [Database Entities](notes/DatabaseEntities.md)    
 [Database Relationships](notes/DatabaseRelationships.md)        
-
+[Weak Entities](notes/WeakEntities.md)
