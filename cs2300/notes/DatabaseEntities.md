@@ -1,12 +1,12 @@
 # Database Entities 
 
 ## Entities
-An *Entity* is a table in a database, an *entity set* is a group of entities.      
+An *Entity* is a table in a database, an *entity set* is a group of entities.        
 ![How to draw an entity](images/entity.png)   
 
 
 ## Attributes 
-An *Attribute* is a column inside of an entity.       
+An *Attribute* is a column inside of an entity.    
 ![How to draw attributes](images/attributes.png)
 
 
@@ -20,7 +20,9 @@ A *Complex Attribute* has multiple values, each value is also a composite attrib
 
 
 ## Keys 
-Every entry (row) in a database must have a **unique identifier** called the *key*.    
+Every entry (row) in a database must have a **unique identifier** called the *key*.       
+![How to draw keys](images/keys.png)   
 
 ### Composite Keys
-A *Composite Key* is two or more attributes that, when combined, form a unique value for every entry in a table. 
+A *Composite Key* is two or more attributes that, when combined, form a unique value for every entry in a table.     
+![How to draw composite keys](images/compositekeys.png) 
