@@ -6,7 +6,7 @@ An *Entity* is a table in a database, an *entity set* is a group of entities.
 
 
 ## Attributes 
-An *Attribute* is a column inside of an entity. 
+An *Attribute* is a column inside of an entity.       
 ![How to draw attributes](images/attributes.png)
 
 
