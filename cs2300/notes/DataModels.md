@@ -15,11 +15,13 @@ The Implementation Data Model (a.k.a, Representational Data Model) is a *not-so-
 The Relational Model is a type of Implementation Data Model.     
 
 **Student**     
+
 | Name | *ID* | Address | Department |
 |------|--------|---------|------------|
 
 
 **Course**    
+
 | Name | *CourseNum* | Instructor|
 |------|--------|---------|
 
