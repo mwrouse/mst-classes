@@ -8,3 +8,5 @@ Katrina Ward
 [Databases](notes/Databases.md)    
 [Data Models](notes/DataModels.md)     
 [Database Entities](notes/DatabaseEntities.md)    
+[Database Relationships](notes/DatabaseRelationships.md)        
+
